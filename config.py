@@ -6,6 +6,7 @@ class Config:
     USER = os.getenv("DB_USER")
     PASSWORD = os.getenv("DB_PASSWORD")
     DATABASE = os.getenv("DB_DATABASE")
+    SSL_CA = "ca.pem"
 
     SECRET_KEY = os.getenv("SECRET_KEY", "praktikum-flask-2026")
     DEBUG = os.getenv("DEBUG", "False").lower() == "true"
