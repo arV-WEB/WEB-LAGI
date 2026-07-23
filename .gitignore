@@ -49,7 +49,7 @@ coverage.xml
 
 # Rope
 .ropeproject
-.pem
+ca.pem
 # Django stuff:
 *.log
 *.pot
