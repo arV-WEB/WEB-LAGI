@@ -16,8 +16,6 @@ def get_connection():
             user=Config.USER,
             password=Config.PASSWORD,
             database=Config.DATABASE,
-            # Lokasi sertifikat SSL
-            ssl_ca=Config.SSL_CA
         )
 
         return connection
