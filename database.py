@@ -16,6 +16,7 @@ def get_connection():
             user=Config.USER,
             password=Config.PASSWORD,
             database=Config.DATABASE,
+            ssl_disabled=False
         )
 
         return connection
