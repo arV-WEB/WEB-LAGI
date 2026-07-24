@@ -15,8 +15,7 @@ def get_connection():
             port=Config.PORT,
             user=Config.USER,
             password=Config.PASSWORD,
-            database=Config.DATABASE,
-            ssl_ca=Config.SSL_CA
+            database=Config.DATABASE
         )
 
         return connection
